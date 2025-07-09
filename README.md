@@ -24,3 +24,16 @@ numpy
 scikit-learn
 matplotlib/seaborn
 Colab/Jupyter Notebook
+
+customer-churn-prediction/
+├── data/                   # Dataset files
+├── notebooks/              # Jupyter notebooks for exploration
+├── src/
+│   ├── preprocessing.py    # Data cleaning and feature engineering
+│   ├── train_model.py      # Model training script
+│   ├── predict.py          # Prediction functions
+│   └── app.py              # Flask/FastAPI application (optional)
+├── models/                 # Saved model files
+├── tests/                  # Unit tests
+├── requirements.txt        # Dependencies
+└── README.md               # This file
